@@ -396,6 +396,10 @@ function goToPage(page) {
   }
 }
 
+function notReady() {
+  alert("We appreciate your interest!  We're excited to announce that our new product is on its way! Stay tuned for its upcoming release. Thank you for your patience.");
+}
+
 function checkout() {
   // Implement your checkout logic here
   alert('Checkout functionality will be implemented.');
