@@ -1403,7 +1403,7 @@ footer {
     top: 100%;
     border-radius: 8px;
     overflow: hidden;
-    margin-left: 36px;
+    margin-left: none;
 }
 
 .search-container:focus-within .dropdown-content {
@@ -1868,9 +1868,10 @@ footer{
 }
 
 .shopShoe img{
-    place-items: center;
+    /* place-items: center; */
     max-width: 100%; /* Ensure the image doesn't exceed its container */
       height: auto;
+      margin-left: 0px;
 }
 
 .shoeText {
@@ -1930,7 +1931,7 @@ footer{
 }
 
 #down{
-    margin-top: 200px !important ;
+    margin-top: 230px !important ;
     display: flex;
     justify-content: space-around;
 }
@@ -2106,13 +2107,11 @@ justify-content: center;
     @media only screen and (max-width: 414px) and (max-height: 846px) {
         /* Styles for Samsung Galaxy S8 Plus or devices with similar screen sizes */
         /* Add your specific styles here */
+    
         .sub-categories a {
             color: #333 !important;
             /* padding: 4px; */
-            display: block;
-            text-decoration: none;
-            margin-left: -12px;
-            padding-top: 15px;
+            margin-left: -15px;
         }
       }
 
@@ -2159,6 +2158,157 @@ justify-content: center;
         /* Your styles for Surface Duo go here */
             
     }
+
+    @media only screen and (max-width: 540px) {
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            right: -700px;
+            height: 127.90vh;
+            /* width: 270px; */
+            width: 100%;
+            background-color: #83adab ;
+            box-shadow: 5px 5px 10px #888888;
+            padding: 80px 0 0 10px;
+            transition: 0.5s;
+            border-radius: 5px;
+            margin-top: 0px;
+            padding-left: 0px;
+         }
+  
+  
+         .hiddenLink{
+          display: none;
+         }
+         
+         .cartLink{
+          padding-left: 30px;
+         }
+  
+      /* #down{
+          padding: 90px 0px !important;
+      } */
+  
+         #navbar.active {
+          right: -50px;
+      }
+      
+         #navbar li{
+            margin-bottom: 30px;      
+         }
+      
+         #mobile{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+         }
+         
+         #mobile i {
+           color: #1a1a1a;
+           font-size: 24px;
+           padding-left: 20px;
+         }
+      
+          #close {
+              display: block;
+              position: absolute;
+              top: 30px;
+              color: #222;
+              font-size: 24px;
+              /* padding-left: 230px; */
+              padding-left: 0px;
+          }
+          
+
+        .randomImages {
+            display: block;
+            padding: 20px 10px;
+        }
+
+        .slideshow-container img {
+            width: 100%;
+            max-height: 280px;
+            /* max-height: 200px; */
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+.text-content {
+    width: 100%;
+    padding: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.sub-categories {
+    display: flex;
+    position: absolute;
+    background-color: #8dbeba;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 0px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 199px;
+}
+      
+.jewelry-image {
+    border-radius: 12px;
+    height: fit-content;
+    margin-left: 63px;
+}
+
+.shopShoe {
+    display: block;
+    padding: 20px 30px;
+}
+
+#down {
+    margin-top: 230px !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shiftDown {
+    /* margin: 10px 0px; */
+    padding-left: 30px;
+}
+
+#cartCountMobile {
+    /* background-color: #088178; */
+    color: red;
+    padding-left: 5px;
+    /* width: 300px; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 128, 0, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 80%;
+    top: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+        /* Add more styles for smaller screens as needed */
+      }
+
+
+      
+
+    @media only screen and (max-width: 1350px) {
+        /* Styles specific to screens with a width of 1350 pixels or less */
+       
+      
+        /* Add more styles as needed for your specific elements */
+      }
     
     .arrangeSection{
         padding: 20px 20px;
@@ -2168,3 +2318,7 @@ justify-content: center;
     .arrangeSection section{
         padding-top: 20px;
     }
+
+    /* for iphone5/se */
+
+   
