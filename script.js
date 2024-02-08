@@ -549,3 +549,22 @@ function updateDarkMode() {
 
 // Call the function to apply styles during initial page load
 updateDarkMode();
+
+
+  // let currentPosition = 0;
+
+  // function moveCarousel(direction) {
+  //   const productContainer = document.querySelector('.product-container');
+  //   const products = document.querySelectorAll('.product');
+  //   const totalProducts = products.length;
+
+  //   if (direction === 'left') {
+  //     currentPosition = (currentPosition - 1 + totalProducts) % totalProducts;
+  //   } else {
+  //     currentPosition = (currentPosition + 1) % totalProducts;
+  //   }
+
+  //   const displacement = -currentPosition * 100 + '%';
+  //   productContainer.style.transform = 'translateX(' + displacement + ')';
+  // }
+
