@@ -2375,3 +2375,177 @@ justify-content: center;
 
     /* Add any other styles you want to modify for Nest Hub here */
 }
+
+/* for a half of a laptop screen */
+@media only screen and (max-width: 683px) {
+    /* Styles for approximately half of a laptop screen */
+    .circular-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .first-category, .second-category {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0px;
+  }
+  
+  #cartCountMobile {
+      /* background-color: #088178; */
+      color: red;
+      padding-left: 5px;
+      /* width: 300px; */
+  }
+  
+   #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            right: -1000px;
+            height: 127.90vh;
+            /* width: 270px; */
+            width: 100%;
+            background-color: #83adab ;
+            box-shadow: 5px 5px 10px #888888;
+            padding: 80px 0 0 10px;
+            transition: 0.5s;
+            border-radius: 5px;
+            margin-top: 0px;
+            padding-left: 0px;
+         }
+  
+  
+         .hiddenLink{
+          display: none;
+         }
+         
+         .cartLink{
+          padding-left: 30px;
+         }
+  
+      /* #down{
+          padding: 90px 0px !important;
+      } */
+  
+         #navbar.active {
+          right: -50px;
+      }
+      
+         #navbar li{
+            margin-bottom: 30px;      
+         }
+      
+         #mobile{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+         }
+         
+         #mobile:hover{
+          cursor: pointer;
+         }
+  
+         #mobile i {
+           color: #1a1a1a;
+           font-size: 24px;
+           padding-left: 20px;
+         }
+          
+          #close {
+              display: block;
+              position: absolute;
+              top: 30px;
+              color: #222;
+              font-size: 24px;
+              /* padding-left: 230px; */
+              padding-left: 0px;
+          }
+          /* padding-left:0px */
+          /* display: initial; */
+       
+          .randomImages {
+              display: block;
+              padding: 20px 10px;
+          }
+  
+          .slideshow-container img {
+          width: 100%;
+          max-height: 200px;
+          object-fit: cover;
+          border-radius: 15px;
+  }
+  
+  .text-content {
+      width: 100%;
+      padding: 0px;
+      padding-left: 0px;
+      text-align: center;
+  }
+  
+  .sub-categories-container {
+      position: absolute;
+      display: block;
+      /* padding-top: 2px; */
+  }
+  
+  
+  
+  /* Style for the dropdown content (hidden by default) */
+  .sub-categories {
+      display: flex;
+      position: none;
+      background-color: none; /* White background */
+      box-shadow: none; /* Box shadow for a subtle effect */
+      z-index: none; 
+      width: 0px;
+      border-radius: 0px;
+      margin-left: 20px;
+      /* margin-left: 0px; */
+      padding-bottom: 10px;
+      margin-top: 170px;
+  }
+  
+  .sub-categories a {
+      color: #333 !important;  /* Text color */
+      /* padding: 4px; */
+      display: block;
+      text-decoration: none;
+      margin-left: -6px;
+      padding-top: 15px;
+  }
+  
+  /* Change color on hover for the dropdown links */
+  .sub-categories a:hover {
+      color: #5d7a7a !important;
+      transform: scale(1.2);
+      /* content: none !important; */
+     /* Light gray background on hover */
+  }
+  
+  /* Show the dropdown content when hovering over the dropdown link */
+  .sub-categories-container:hover .sub-categories {
+      display: none !important;
+  }
+  
+  .shiftDown{
+      /* margin: 10px 0px; */
+      padding-left: 30px;
+  }
+  
+  #down{
+      margin-top: 200px !important ;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  
+    /* Add more styles as needed for your specific elements */
+  }
