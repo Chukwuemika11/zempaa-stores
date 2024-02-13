@@ -902,6 +902,10 @@ text-align: center;}
     .hidden-text {
         display: none;
     }
+    
+    .status{
+        padding-left: 20px;
+    }
 
     .buttonsNav{
         display: flex;
@@ -1218,6 +1222,23 @@ footer a:hover {
             padding-left: 15px;
           }
 
+          .ekene img {
+            width: 200px;
+            height: 200px;
+            border-radius: 60%;
+            margin-bottom: 10px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        
+
+          .ekene{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+          }
+  
   @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px) {
@@ -2009,6 +2030,13 @@ justify-content: center;
     padding-left: 12px;
 }
 
+.ekene{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+   }
+
 .members{
     display: flex;
     flex-direction: column; /* Stack team members vertically */
@@ -2360,7 +2388,7 @@ justify-content: center;
     }
 
     #cartItems {
-        padding-left: 0px;
+        padding-left: none;
     }
 
     #cartPage {
