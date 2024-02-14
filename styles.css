@@ -44,7 +44,7 @@
    align-items: center;
    justify-content: center;
    text-decoration: none;
-   margin-right: 50px;
+   /* margin-right: 50px; */
    flex-direction: row;
 }
 
@@ -1270,7 +1270,7 @@ footer a:hover {
 } 
 
  #navbar.active {
-  right: -50px;
+  right:-0px;
 }
 
  #navbar li{
@@ -1371,7 +1371,8 @@ padding: 20px 10px;
 
 
 .shoppingVideo {
-    padding: 20px 10px;
+    padding: 20px 0px;
+    /* border-radius: 20px; */
 }
 
 .back-to-school-deals {
@@ -1391,7 +1392,9 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    /* margin-top: 550px; */
 }
+
 
 
 .movedarkmode {
@@ -1690,6 +1693,7 @@ footer {
           border-radius: 5px;
           margin-top: 0px;
           padding-left: 0px;
+          /* margin-right: 50px; */
        }
 
 
@@ -1724,8 +1728,6 @@ footer {
          font-size: 24px;
          padding-left: 20px;
        }
-    
-
         
         #close {
             display: block;
@@ -2034,7 +2036,7 @@ justify-content: center;
     display: block;
     align-items: center;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 65px;
    }
 
 .members{
@@ -2382,8 +2384,8 @@ justify-content: center;
         height: 70px;
     }
 
-    .logo{
-        width: 160px;
+    .logo {
+        width: 100px;
         height: 25px;
     }
 
@@ -2449,8 +2451,7 @@ justify-content: center;
             margin-top: 0px;
             padding-left: 0px;
          }
-  
-  
+
          .hiddenLink{
           display: none;
          }
@@ -2464,7 +2465,7 @@ justify-content: center;
       } */
   
          #navbar.active {
-          right: -50px;
+          right: 0px;
       }
       
          #navbar li{
