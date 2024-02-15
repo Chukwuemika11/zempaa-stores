@@ -1371,8 +1371,10 @@ padding: 20px 10px;
 
 
 .shoppingVideo {
-    padding: 20px 0px;
+    padding: none;
+    /* padding: 20px 0px; */
     /* border-radius: 20px; */
+    border: none;
 }
 
 .back-to-school-deals {
@@ -1771,7 +1773,7 @@ footer {
 
 
 .shoppingVideo {
-    padding: 20px 10px;
+    padding: 0px 0px;
 }
 
 .back-to-school-deals {
